@@ -1,0 +1,5 @@
+const chalk = require('chalk')
+const note = require('./notes')
+const notes = note()
+console.log(chalk.red.inverse.bold('Error!!!'))
+console.log(notes)
